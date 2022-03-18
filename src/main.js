@@ -26,6 +26,9 @@ import api from './api/index'
 
 Vue.prototype.$api = api
 
+import HintButton from '@/components/HintButton'
+
+Vue.component(HintButton.name, HintButton)
 new Vue({
   el: '#app',
   router,
