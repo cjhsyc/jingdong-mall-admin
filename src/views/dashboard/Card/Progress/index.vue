@@ -13,29 +13,29 @@ export default {
       xAxis: {
         show: false,
         //最小值和最大值
-        min:0,
-        max:100
+        min: 0,
+        max: 100
       },
       yAxis: {
         show: false,
-        type:'category'
+        type: 'category'
       },
       series: [
         {
           type: 'bar',
           data: [60],
-          barWidth:15,
-          color:'yellowgreen',
+          barWidth: 15,
+          color: 'yellowgreen',
           //背景颜色
-          showBackground:true,
-          backgroundStyle:{
-            color:'#eee'
+          showBackground: true,
+          backgroundStyle: {
+            color: '#eee'
           },
           //文本
-          label:{
-            show:true,
-            formatter:'|',
-            position:'right'
+          label: {
+            show: true,
+            formatter: '|',
+            position: 'right'
           }
         }
       ],

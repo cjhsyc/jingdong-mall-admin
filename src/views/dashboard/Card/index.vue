@@ -40,7 +40,7 @@
       </el-col>
       <el-col :span="6">
         <el-card>
-          <Detail title="运营活动效果" content="50%">
+          <Detail title="运营活动效果" content="60%">
             <template v-slot:charts>
               <Progress></Progress>
             </template>
